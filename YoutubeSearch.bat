@@ -1,6 +1,5 @@
 ::YoutubeSearch.bat
-::By SachaDee - 2016
-::Use and abuse it !!@!
+::Use and abuse it license !!@!
 
 ::Usage : Youtubesearch.bat "Bob Marley No woman no cry"
 ::Tout l'element de recherche doit être entre "..."
