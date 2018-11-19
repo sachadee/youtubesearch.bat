@@ -16,8 +16,8 @@ if not exist #.vbs call:construct
 cscript /nologo #.vbs "%~1" >#.txt
 
 for /f "tokens=3 delims==" %%a in ('type #.txt ^| findstr "data-context-item-id" 2^>nul ') do (
-   set $link=%%a
-   set $link=!$Link:data-visibility-tracking=!
+   set "$link=%%a"
+   set "$link=!$Link:data-visibility-tracking=!"
    echo  https://www.youtube.com/watch?v=!$link:~1,-2!
 )
 %$% #.txt&%$% #.vbs
