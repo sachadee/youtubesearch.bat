@@ -21,6 +21,7 @@ for /f "tokens=3 delims==" %%a in ('type #.txt ^| findstr "data-context-item-id"
    echo  https://www.youtube.com/watch?v=!$link:~1,-2!
 )
 %$% #.txt&%$% #.vbs
+pause
 exit/b
 
 :construct
